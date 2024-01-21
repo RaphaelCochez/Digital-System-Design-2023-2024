@@ -1,0 +1,21 @@
+2024-01-20T20:40:29.107140800255-20:40:29 **** Build of configuration Debug for project test_uart_button_led ****
+000-make all 
+000-'Building file: ../src/test_uart_button_led.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_uart_button_led.o" -IC:/Users/Rapha/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/test_uart_button_led.d" -MT"src/test_uart_button_led.o" -o "src/test_uart_button_led.o" "../src/test_uart_button_led.c"
+000-'Finished building: ../src/test_uart_button_led.c'
+000-' '
+000-'Building target: test_uart_button_led.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Rapha/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_uart_button_led.elf"  ./src/test_uart_button_led.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: test_uart_button_led.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size test_uart_button_led.elf  |tee "test_uart_button_led.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   7012	    496	   3116	  10624	   2980	test_uart_button_led.elf
+000-'Finished building: test_uart_button_led.elf.size'
+000-' '
+00255-
+20:40:30 Build Finished (took 1s.267ms)
+
