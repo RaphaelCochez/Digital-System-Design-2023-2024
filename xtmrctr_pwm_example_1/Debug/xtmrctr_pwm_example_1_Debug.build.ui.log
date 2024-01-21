@@ -1,0 +1,21 @@
+2024-01-20T22:58:22.94394800255-22:58:22 **** Incremental Build of configuration Debug for project xtmrctr_pwm_example_1 ****
+000-make all 
+000-'Building file: ../src/xtmrctr_pwm_example.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_pwm_example.o" -IC:/Users/Rapha/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xtmrctr_pwm_example.d" -MT"src/xtmrctr_pwm_example.o" -o "src/xtmrctr_pwm_example.o" "../src/xtmrctr_pwm_example.c"
+000-'Finished building: ../src/xtmrctr_pwm_example.c'
+000-' '
+000-'Building target: xtmrctr_pwm_example_1.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Rapha/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "xtmrctr_pwm_example_1.elf"  ./src/xtmrctr_pwm_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: xtmrctr_pwm_example_1.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size xtmrctr_pwm_example_1.elf  |tee "xtmrctr_pwm_example_1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  17944	    432	   3312	  21688	   54b8	xtmrctr_pwm_example_1.elf
+000-'Finished building: xtmrctr_pwm_example_1.elf.size'
+000-' '
+00255-
+22:58:24 Build Finished (took 2s.25ms)
+

@@ -1,0 +1,21 @@
+2024-01-20T23:07:27.219532700255-23:07:27 **** Incremental Build of configuration Debug for project test_uart_pwm ****
+000-make all 
+000-'Building file: ../src/test_uart_pwm.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_uart_pwm.o" -IC:/Users/Rapha/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/test_uart_pwm.d" -MT"src/test_uart_pwm.o" -o "src/test_uart_pwm.o" "../src/test_uart_pwm.c"
+000-'Finished building: ../src/test_uart_pwm.c'
+000-' '
+000-'Building target: test_uart_pwm.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Rapha/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_uart_pwm.elf"  ./src/test_uart_pwm.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: test_uart_pwm.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size test_uart_pwm.elf  |tee "test_uart_pwm.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  10420	    432	   3164	  14016	   36c0	test_uart_pwm.elf
+000-'Finished building: test_uart_pwm.elf.size'
+000-' '
+00255-
+23:07:28 Build Finished (took 1s.414ms)
+
